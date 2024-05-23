@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    cursor: url("../Resources/cursor5.png"), auto;
+}
+.logo{
+    width: 6rem;
+    height: 6rem;
+}
+.logo:hover{
+    cursor: url("../Resources/cursor5.png"), auto;
+}
+header {
+    background-color: #00aaff; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logoR {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    cursor: url("../Resources/cursor5.png"), auto;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+h2::first-letter{
+    color: yellow;
+}
+h3{
+    text-align: center;
+}
+main{
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+main article {
+    margin-bottom: 20px;
+    max-height: 500px; 
+    overflow-y: scroll; 
+}
+main p {
+    margin-bottom: 10px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+div{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.form{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10vh;
+}
+input{
+    text-align: center;
+}
+#email{
+    margin-left: 2vh;
+    justify-content: center;
+    
+}
+#phone{
+    margin-left: 2vh;
+    justify-content: center;
+}
+#name{
+    margin-left: 2vh;
+    justify-content: center;
+}
+textarea {
+    margin-left: 2vh;
+    width: 300px; /* Establece el ancho del textarea */
+    height: 100px; /* Establece la altura del textarea */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Evita que el usuario cambie el tamaño del textarea */
+    overflow-wrap: break-word; /* Asegura que las palabras largas se dividan */
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #00aaff; /* Cambia el color del borde cuando el textarea está enfocado */
+}
+#enviar {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#enviar:hover {
+    background-color: #008ecc;
+}
+
+#enviar:active {
+    background-color: #007bb5;
+}
+
+#enviar:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #00aaff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    main article {
+        max-height: 200px; 
+    }
+
+    main section {
+        max-height: 100px; 
+    }
+}
